@@ -91,7 +91,7 @@ const int &iVar1 = iVar;
 枚举都是常量
 
 ```c++
-enum
+enum XXX
 {
 	A = 1,
 	B,
@@ -100,4 +100,44 @@ enum
 };
 ```
 
-2.
+2.枚举常用
+
+## 类类型
+
+1.class 修饰
+
+2.设计新的类型
+
+接口
+
+实现
+
+3.类成员
+
+数据成员
+
+类的操作：成员函数
+
+4.封装、继承、多态
+
+5.class 默认私有
+
+6.struct 默认公有
+
+## 标准库
+
+### string
+
+string字符串类型
+
+1.四种初始化方法
+
+![](https://markdownimages.oss-cn-beijing.aliyuncs.com/img/20200330224729.png)
+
+cout<<s2<<endl;  string类型
+
+cout<<“test”<<endl;   隐含 /0 C风格字符串
+
+2.getline 读取完整一行
+
+cin一次读取一个单词
