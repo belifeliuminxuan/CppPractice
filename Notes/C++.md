@@ -142,3 +142,21 @@ cout<<“test”<<endl;   隐含 /0 C风格字符串
 
 cin：读取并忽略有效字符之前的空白，读取字符直到下一个空白
 
+getline：读取整行，直到读到换行符
+
+size()操作
+
+用string：：size_type size size 接收
+
+```c++
+string str("test");
+	str.size(); // 获取字符串大小
+	string::size_type size = str.size();  // 定义变量来接收
+为string专门设计的类型
+```
+
+3.string对象中字符的处理
+
+### bitset
+
+ 
